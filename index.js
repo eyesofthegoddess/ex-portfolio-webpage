@@ -10,7 +10,6 @@ function moveBackground(event) {
   for (let i = 0; i < shapes.length; ++i) {
     const isOdd = i % 2 !== 0;
     const boolInt = isOdd ? -1 : 1;
-    // Added rotate after tutorial
     shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`
   }
 }
@@ -32,10 +31,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_80ih0if",
-      "template_d9refyl",
+      "template_iku491j",
+      "service_4zynz44"
       event.target,
-      "user_K1PoFs8pB2YVWStDxrUls"
+      "user_yKXbOENcjMJ_G1was"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
