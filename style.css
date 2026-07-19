@@ -62,7 +62,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus {
-  border-color: #f06449;
+  border-color: #9d18c5;
 }
 
 .container {
@@ -97,8 +97,8 @@ input:focus, textarea:focus {
   line-height: 1;
 }
 
-.orange {
-  color: #f06449 !important;
+.purple {
+  color: #9d18c5 !important;
 }
 
 .link__hover-effect {
@@ -158,6 +158,7 @@ nav,
 }
 .dark-theme #personal-logo {
   filter: none;
+  filter: invert(1);
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -201,7 +202,7 @@ nav,
 }
 
 .social__link {
-  background-color: #f06449;
+  background-color: #9d18c5;
   color: white;
   padding: 6px;
   width: 32px;
@@ -285,7 +286,7 @@ nav {
 #personal-logo {
   width: 50px;
   height: 50px;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .nav__link--list {
@@ -412,8 +413,8 @@ nav {
 }
 
 .form__submit {
-  background-color: #f06449;
-  border: 2px solid #f06449;
+  background-color: #9d18c5;
+  border: 2px solid #640f7e;
   color: white;
   font-weight: 700;
   width: 100%;
@@ -429,8 +430,8 @@ nav {
 }
 
 .form__submit:active {
-  border-color: #f06449;
-  color: #f06449;
+  border-color: #640f7e;
+  color: #9d18c5;
 }
 
 .modal__overlay {
@@ -451,7 +452,7 @@ nav {
 }
 
 .modal__overlay--success {
-  background-color: #4bb543;
+  background-color: #1ad646;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -668,7 +669,7 @@ footer {
   left: 80vw;
 }
 
-/* ADDED AFTER TUTORIAL */
+/* copied in after tutorial */
 .footer__logo--popper {
   position: absolute;
   right: 0;

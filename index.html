@@ -8,14 +8,21 @@
   <title>David Bragg</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ec8aef0bde.js" crossorigin="anonymous"></script>
   <script src="index.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_K1PoFs8pB2YVWStDxrUls");
-    })();
-  </script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "yKXbOENcjMJ_G1was",
+      });
+   })();
+</script>
 </head>
 
 <body>
@@ -57,14 +64,14 @@
     </nav>
     <header class="header">
       <div class="header__content">
-        <h1 class="title">Hey</h1>
-        <h1 class="title orange">I'm David.</h1>
+        <h1 class="title">Hi there!</h1>
+        <h1 class="title purple">I'm Angela Castle.</h1>
         <p class="header__para">
-          I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
+          I'm a <b class="purple">Frontend Software Engineer</b> with a strong passion for building web applications
           with great user
           experiences.
           <br>
-          Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
+          Here's a bit more <b class="purple click" onclick="toggleModal()">about me</b>.
         </p>
         <div class="social__list">
           <a href="https://www.linkedin.com/in/david-bragg-5b23a1176/" target="_blank" class="social__link click">
@@ -92,12 +99,12 @@
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
         <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
         <p class="modal__para">
-          I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
-          websites for top-tech companies like <b class="orange">Google</b> and <b class="orange">Canva</b>.
+          I'm a 21 year-old Australian <b class="purple">frontend software engineer</b> with experience developing
+          websites for top-tech companies like <b class="purple">Google</b> and <b class="purple">Canva</b>.
           <br>
           I currently solve extremely difficult engineering
-          problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
-            class="orange">MobX</b>
+          problems every day with <b class="purple">React</b>, <b class="purple">TypeScript</b> and <b
+            class="purple">MobX</b>
           in Canva's Video team.
         </p>
         <div class="modal__languages">
@@ -190,7 +197,7 @@
     <div class="container">
       <div class="row">
         <h1 class="section__title">
-          Here are some of my <span class="orange">projects</span>
+          Here are some of my <span class="purple">projects</span>
         </h1>
         <ul class="project__list">
           <li class="project">
