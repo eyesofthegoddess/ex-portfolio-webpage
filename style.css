@@ -134,7 +134,7 @@ nav,
   opacity: 1;
   visibility: visible;
   transition: all 600ms 800ms;
-}
+  }
 
 .modal--open nav,
 .modal--open .scroll,
@@ -174,7 +174,7 @@ nav,
 
 #landing-page {
   min-height: 100vh;
-}
+  }
 
 .header {
   position: absolute;
@@ -217,7 +217,7 @@ nav,
   font-size: 32px;
   border-radius: 50%;
   border: none;
-  background-color: #242424;
+  background-color: #9d18c5;
   color: white;
   position: fixed;
   bottom: 32px;
@@ -556,7 +556,7 @@ footer {
   position: relative;
   background-color: #242424;
   display: flex;
-  padding: 6% 0;
+  padding: 2% 0;
 }
 
 .footer__row {
@@ -624,7 +624,6 @@ footer {
   left: 80vw;
 }
 
-/* copied in after tutorial */
 .footer__logo--popper {
   position: absolute;
   right: 0;
@@ -632,7 +631,7 @@ footer {
   font-weight: 700;
   opacity: 0;
   transition: all 300ms ease;
-  color: white;
+  color: #9d18c5;
 }
 
 .footer__anchor {
@@ -650,6 +649,7 @@ footer {
   }
   .header__para {
     font-size: 20px;
+    text-align: center;
   }
   .modal {
     top: 0;
@@ -671,6 +671,7 @@ footer {
   }
   .header__para {
     font-size: 18px;
+    text-align: center;
   }
   .nav__link:first-child {
     display: none;
