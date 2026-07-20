@@ -168,7 +168,7 @@ nav,
   background-color: white;
 }
 .dark-theme .mail__btn {
-  background-color: white;
+  background-color: #9d18c5;
   color: #242424;
 }
 
@@ -262,11 +262,6 @@ nav,
   }
 }
 
-/* 
-
-  NAVIGATION 
-  
-*/
 
 nav {
   display: flex;
@@ -303,11 +298,6 @@ nav {
   font-size: 20px;
 }
 
-/* 
-
-  MODAL 
-  
-*/
 .modal {
   position: absolute;
   top: 50%;
@@ -421,7 +411,7 @@ nav {
 }
 
 .form__submit:hover {
-  border-color: #fff;
+  border-color: 640f7e;
   background-color: transparent;
 }
 
@@ -482,11 +472,6 @@ nav {
   font-size: 36px;
   z-index: 100;
 }
-/* 
-
-  PROJECTS 
-  
-*/
 
 .section__title {
   text-align: center;
@@ -500,7 +485,7 @@ nav {
 
 .project__img {
   width: 100%;
-  transition: all 600ms ease;
+  transition: all 400ms ease;
 }
 
 .project__wrapper {
@@ -566,11 +551,6 @@ nav {
   margin: 16px 0;
 }
 
-/* 
-
-  FOOTER 
-  
-*/
 
 footer {
   position: relative;
@@ -602,29 +582,7 @@ footer {
   color: white;
 }
 
-/* 
 
-  SHAPES
-
-  shapes on the first row 
-  height = 15vh
-  
-  shapes on the second row 
-  height = 50vh
-  
-  shapes on the third row 
-  height = 80vh
-
-  shapes on the first column
-  width = 5vw
-  
-  shapes on the second column
-  width = 50vw
-
-  shapes on the third column
-  width = 80vw
-
-*/
 .shape {
   position: fixed;
 }
@@ -685,7 +643,6 @@ footer {
   opacity: 1;
 }
 
-/* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
   .title {
     font-size: 80px;
@@ -707,7 +664,6 @@ footer {
   }
 }
 
-/* Small phones */
 @media (max-width: 480px) {
   .title {
     font-size: 52px;

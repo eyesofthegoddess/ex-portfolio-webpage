@@ -10,8 +10,7 @@ function moveBackground(event) {
   for (let i = 0; i < shapes.length; ++i) {
     const isOdd = i % 2 !== 0;
     const boolInt = isOdd ? -1 : 1;
-    
-    // copied from lesson templates
+
     shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`
   }
 }
@@ -19,7 +18,7 @@ function moveBackground(event) {
 function toggleContrast() {
   contrastToggle = !contrastToggle;
   if (contrastToggle) {
-    document.body.classList += " dark-theme"
+    document.body.classList += "dark-theme"
   }
   else {
     document.body.classList.remove("dark-theme")
@@ -33,10 +32,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_4zynz44",
-      "template_iku491j",
+      `service_4zynz44`,
+      `template_iku491j`,
       event.target,
-      "yKXbOENcjMJ_G1was"
+      `ZZNd8hGqexXDYyFy2`
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
