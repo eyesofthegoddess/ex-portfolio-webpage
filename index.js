@@ -36,8 +36,7 @@ function contact(event) {
       `template_iku491j`,
       event.target,
       `ZZNd8hGqexXDYyFy2`
-    )
-    .then(() => {
+    ).then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
     })
